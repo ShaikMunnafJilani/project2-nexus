@@ -119,5 +119,3 @@ $(document).keypress(function(e) {
 
 });
 
-
-    

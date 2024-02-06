@@ -1,24 +1,47 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Techy Software</title>
 
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
 
+<!-- Custom CSS -->
+<link href="assets/css/main.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/animate-custom.css" rel="stylesheet">
+<link href='http://fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<div id="navbar-main"> 
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+<div id="navbar-main" > 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar navbar-default navbar-fixed-top" style="background: #ebf5fc;">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="#home"><i class="fa fa-location-arrow"></i> Ascend</a> </div>
+        <a class="navbar-brand" href="#home">Techy Software</a> </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li><a href="#home" class="smoothScroll"> Home</a></li>
           <li> <a href="#about" class="smoothScroll"> About</a></li>
           <li> <a href="#services" class="smoothScroll"> Services</a></li>
-          <li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
-          <li> <a href="#team" class="smoothScroll"> Team</a></li>
+          <li> <a href="#portfolio" class="smoothScroll"> Careers</a></li>
           <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
         </ul>
       </div>
@@ -30,10 +53,11 @@ layout: default
 <!-- ==== HEADERWRAP ==== -->
 <div id="headerwrap" name="home">
   <header class="clearfix">
-    <h1>Design, Development, Marketing.</h1>
-    <p>Lorem ipsum dolor sit amet, cu menandri molestiae voluptaria eam,<br>
-      invidunt reprehendunt nec ei. Sonet regione consulatu vel id.</p>
-    <a href="#portfolio" class="smoothScroll btn btn-lg">See Our Works</a> </header>
+    <h1>Empowering businesses through innovative software solutions</h1>
+    <h2 style="color: wheat;">Tech-driven solutions</h2>
+    <marquee direction="right">Coding the future, one solution at a time</marquee>
+    <a href="#services" class="smoothScroll btn btn-lg">See Our Works</a>
+  </header>
 </div>
 <!-- /headerwrap --> 
 
@@ -41,12 +65,18 @@ layout: default
 <div id="about" name="about">
   <div class="container">
     <div class="row white">
-      <div class="col-md-6"> <img class="img-responsive" src="assets/img/about/about1.jpg" align=""> </div>
+      <div class="col-md-6"> <img class="img-responsive" src="assets/img/about/vector.jpg" align=""> </div>
       <div class="col-md-6">
-        <h3>About us</h3>
-        <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p>
-        <h3>Why choose us?</h3>
-        <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel.</p>
+        <h2>About us</h2>
+        <h6 style="font-weight: 200; color: rgb(60,30,86);">We Provide the best Tech-driven solutions</h6>
+
+        <p style="font-weight: 600;">Welcome to Techy Software, where innovation converges with expertise to redefine the possibilities of software development.
+          Established with a vision to revolutionize the digital landscape, 
+          Techy Software is a leading force in crafting bespoke software solutions that propel businesses to new heights. 
+          With a relentless commitment to excellence and a passion for technology, we embark on every project with a singular mission: to exceed expectations and deliver unparalleled value to our clients.<br>
+          Our journey began with a small team of visionary developers who shared a common goal: to harness the power of technology to solve real-world problems and drive meaningful change.
+        </p>
+        
       </div>
     </div>
     <!-- row --> 
@@ -54,250 +84,137 @@ layout: default
 </div>
 <!-- container --> 
 
-<!-- ==== SERVICES ==== -->
-<div id="services" name="services">
-  <div class="container">
-    <div class="row">
-      <h2 class="centered">Our Services</h2>
+
+<div class="services" id="services" name="services">
+  <div class="row">
+  <h2 class="centered">Our Services</h2>
       <hr>
       <div class="col-lg-8 col-lg-offset-2">
-        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        <p class="large">Unlock innovation with our cutting-edge software solutions and services tailored to elevate your digital presence.</p>
       </div>
-      <div class="col-lg-3 callout"> <i class="fa fa-desktop fa-3x"></i>
-        <h3>Responsive Design</h3>
-        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-      </div>
-      <div class="col-lg-3 callout"> <i class="fa fa-gears fa-3x"></i>
-        <h3>Web Development</h3>
-        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-      </div>
-      <div class="col-lg-3 callout"> <i class="fa fa-dot-circle-o fa-3x"></i>
-        <h3>Social Marketing</h3>
-        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-      </div>
-      <div class="col-lg-3 callout"> <i class="fa fa-shopping-cart  fa-3x"></i>
-        <h3>eCommerce Consulting</h3>
-        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-      </div>
-                
-    </div>
-    <!-- row --> 
   </div>
+<div class="card">
+  <div class="face front">
+    <img src="./assets/img/portfolio/business_website.jpg" alt="Business Websites"/>
+    <h3>Business Websites</h3>
+  </div>
+  <div class="face back">
+    <h3>Business Websites</h3>
+    <p>Elevate your online presence with custom-crafted websites that capture your vision and engage your audience.</p>
+    <div class="link">
+      <a href="#">Details</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="face front">
+    <img src="./assets/img/portfolio/e_commerce.jpg" alt="Business Websites"/>
+    <h3>E-Commerce Websites</h3>
+  </div>
+  <div class="face back">
+    <h3>E-Commerce Websites</h3>
+    <p>Step into the digital marketplace with seamless online shopping experiences that empower your business to thrive.</p>
+    <div class="link">
+      <a href="#">Details</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="face front">
+    <img src="./assets/img/portfolio/education_website.jpg" alt="Business Websites"/>
+    <h3>Educational Websites</h3>
+  </div>
+  <div class="face back">
+    <h3>Educational Websites</h3>
+    <p>Transform education in the digital age with platforms that facilitate learning and collaboration for institutions and educators.</p>
+    <div class="link">
+      <a href="#">Details</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="face front">
+    <img src="./assets/img/portfolio/career_program.jpg" alt="Business Websites"/>
+    <h3>Career Programs</h3>
+  </div>
+  <div class="face back">
+    <h3>Career Programs</h3>
+    <p>Ignite professional growth with enriching internships, bridging the gap between academic learning and real-world success.</p>
+    <div class="link">
+      <a href="#">Details</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="face front">
+    <img src="./assets/img/portfolio/bussiness.jpg" alt="Business Websites"/>
+    <h3>Business Consulting</h3>
+  </div>
+  <div class="face back">
+    <h3>Business Consulting</h3>
+    <p>Strategic vision meets actionable plans - trust Nexus for business strategies that pave the way for sustained growth and success.</p>
+    <div class="link">
+      <a href="#">Details</a>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="face front">
+    <img src="./assets/img/portfolio/Design services.jpg" alt="Business Websites"/>
+    <h3>Design Services</h3>
+  </div>
+  <div class="face back">
+    <h3>Design Services</h3>
+    <p>Elevate your brand with our striking logos and captivating posters – expertly crafted to leave a lasting impression.</p>
+    <div class="link">
+      <a href="#">Details</a>
+    </div>
+  </div>
+</div>
 </div>
 <!-- container --> 
 
-<!-- ==== PORTFOLIO ==== -->
-<div id="portfolio" name="portfolio">
-  <div class="container">
-    <div class="row">
-      <h2 class="centered">Our Portfolio</h2>
-      <hr>
-      <div class="col-lg-8 col-lg-offset-2 centered">
-        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-      </div>
-    </div>
-    <!-- /row -->
-    <div class="container">
-      <div class="row"> 
-        
-        <!-- PORTFOLIO IMAGE 1 -->
-        <div class="col-md-4 ">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-              <figcaption>
-                <h5>UX / UI</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        
-       
-        
-        <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-						      a modal for each of your projects. -->
-        
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Project Title</h4>
-              </div>
-              <div class="modal-body">
-                <p><img class="img-responsive" src="assets/img/portfolio/folio01-preview.jpg" alt=""></p>
-                <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel</p>
-                <p><b><a href="#">Visit Site</a></b></p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-            <!-- /.modal-content --> 
-          </div>
-          <!-- /.modal-dialog --> 
-        </div>
-        <!-- /.modal --> 
-        
-        <!-- PORTFOLIO IMAGE 2 -->
-        <div class="col-md-4">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-              <figcaption>
-                <h5>CONCEPT</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 3 -->
-        <div class="col-md-4">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
-              <figcaption>
-                <h5>MOBILE UI KIT</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-      </div>
-      <!-- /row --> 
-      
-      <!-- PORTFOLIO IMAGE 4 -->
-      <div class="row">
-        <div class="col-md-4 ">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
-              <figcaption>
-                <h5>CONCEPT</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 5 -->
-        <div class="col-md-4">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
-              <figcaption>
-                <h5>UX / UI</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 6 -->
-        <div class="col-md-4">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
-              <figcaption>
-                <h5>CMS INTEGRATION</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        <!-- /col --> 
-      </div>
-      <!-- /row --> 
-            <!-- PORTFOLIO IMAGE 7 -->
-      <div class="row">
-        <div class="col-md-4 ">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio07.jpg" alt="">
-              <figcaption>
-                <h5>MOCKUP</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 8 -->
-        <div class="col-md-4">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio08.jpg" alt="">
-              <figcaption>
-                <h5>WEB ICONS</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 9 -->
-        <div class="col-md-4">
-          <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio09.jpg" alt="">
-              <figcaption>
-                <h5>UX / UI</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-mask --> 
-        </div>
-        <!-- /col --> 
-      </div>
-      <!-- /row --> 
-    </div>
-    <!-- /row --> 
-  </div>
-</div>
-<!-- /container --> 
 
-<!-- ==== TEAM MEMBERS ==== -->
-<div id="team" name="team">
-  <div class="container">
-    <div class="row centered">
-      <h2 class="centered">Meet Our Team</h2>
-      <hr>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team01.jpg" height="120px" width="120px" alt="">
-        <h4>Jessica Wally</h4>
-        <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team02.jpg" height="120px" width="120px" alt="">
-        <h4>Mike Sloan</h4>
-        <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team03.jpg" height="120px" width="120px" alt="">
-        <h4>Michele Doe</h4>
-        <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team04.jpg" height="120px" width="120px" alt="">
-        <h4>Larry Evans</h4>
-        <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-8 col-lg-offset-2 centered">
-        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-      </div>
+<section class="career"  id="portfolio" name=portfolio>
+<div class="container1">
+  <div class="row">
+    <h2 class="centered">Careers</h2>
+    <h6 style="text-align: center;">Meaningful work. Measurable impact. Fulfilling purpose.</h6>
+    <hr>
+    <div class="col-lg-8 col-lg-offset-2 centered">
+      <p class="large">Do you want a career that meets you where you are and takes you where you want to go, whatever your individual ambitions, motivations, and skills may be? Discover what it means to be seen for who you are and celebrated for what you bring. Discover your impact at Techy Software.</p>
     </div>
   </div>
-  <!-- row --> 
-</div>
-<!-- container --> 
+  <div class="card">
+    <div class="imgBx">
+      <img src="./assets/img/career/—Pngtree—job-vacancy_3623785.png">
+    </div>
+    <div class="contentBx">
+      <h2>Jobs</h2>
+      <p>Techy Software is hiring! Join us in revolutionizing the 
+        digital landscape. Explore rewarding career opportunities with
+        our dynamic team.</p>
+      <a href="#"><span>Apply Now</span></a>
+    </div>
+  </div>
 
+  <div class="card">
+    <div class="imgBx">
+      <img src="./assets/img/career/pngwing.com.png">
+    </div>
+    <div class="contentBx">
+      <h2>Internships</h2>
+      <p>Techy Software offers internships for aspiring innovators! 
+        Unlock opportunities to learn, grow, and make a meaningful impact.</p>
+      <a href="#"><span>Apply Now</span></a>
+    </div>
+  </div>
+</div>
+</section>
 <!-- ==== CONTACT ==== -->
 <div id="contact" name="contact">
   <div class="container">
@@ -305,20 +222,21 @@ layout: default
       <h2 class="centered">Contact Us</h2>
       <hr>
       <div class="col-md-4 centered"> <i class="fa fa-map-marker fa-2x"></i>
-        <p>321 Awesome Street<br>
-          New York, NY 17022</p>
+        <p>Coimbatore south,<br>
+          Tamilnadu</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>info@companyname.com</p>
+        <p>contact.nexusinfo@gmail.com</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +1 800 123 1234</p>
+        <p> +91 8778993293</p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 centered">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        <form id="contact" method="post" class="form" role="form">
+        <p>Have a question? Curious if our products or services can help you? Get in touch - we would love to chat!</p>
+        <h1 id="msg"></h1>
+        <form id="contact" method="post" class="form" role="form" action="">
           <div class="row">
             <div class="col-xs-6 col-md-6 form-group">
               <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
@@ -327,10 +245,10 @@ layout: default
               <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
             </div>
           </div>
-          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required style="resize: none;"></textarea>
           <div class="row">
             <div class="col-xs-12 col-md-12">
-              <button class="btn btn btn-lg" type="submit">Send Message</button>
+              <button class="btn btn btn-lg" type="submit" id="sub">Send Message</button>
             </div>
           </div>
         </form>
@@ -346,4 +264,92 @@ layout: default
 
 
 
+
+
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"> <span class="copyright">Copyright &copy; 2024 <a href="" target="_blank" title="Munnaf">Munnaf</a></span> </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
+          <li><a href="https://shorturl.at/qMPW7" target="_blank"><i class="fa fa-facebook"></i></a> </li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
+          <li><a href="https://www.linkedin.com/company/nexus-software-pvt-ltd/" target="_blank"><i class="fa fa-linkedin"></i></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/retina.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+<script>
+ $(function() {
+
+       $('a[href*="#"]:not([href="#myModal"])').click(function() {
+         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+           var target = $(this.hash);
+           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html, body').animate({
+               scrollTop: target.offset().top
+             }, 1000);
+             return false;
+           }
+         }
+       });
+     });
+</script>
+
+<script>
+  let form = document.querySelector("form");
+  form.addEventListener('submit',(e) =>{
+    e.preventDefault();
+    document.querySelector("#sub").value="Submiting...";
+    // Get values from FORM
+    let data = new FormData(form);
+    fetch('https://script.google.com/macros/s/AKfycbxV82cuvYGDBDWfaH0a3uz5YcRkiLfsmEGPZ4p9JAiYIwedx8H6qfRIJrr-o47IBwXqIQ/exec',
+    {method : "post",
+      body:data})
+    .then(res => res.text())
+    .then(data => {
+      // document.querySelector("#msg").innerHTML=data;
+      document.querySelector("#sub").value="Submit";
+      document.getElementById("contact").addEventListener("submit"),function(e){
+        e.preventDefault();
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+      }
+    });
+  })
+</script>
+
+<script>
+  document.getElementById("contact").addEventListener("submit", function(event) {
+      // Prevent the default form submission
+      event.preventDefault();
+      
+      // Clear the form fields
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+  });
+</script>
+
+
+</body>
+
+</html> 
+
+
+   
+    
 
